@@ -1,0 +1,86 @@
+
+/*=====Layout=====*/
+#header {
+    background-color: black;
+    text-align: left;
+    width:auto;
+     padding: 20px; /* Increase padding for thickness */
+    color: white; /* Change text color to white for contrast */
+    font-weight: bold;
+}
+
+#main {
+    text-align:center;
+    width:auto;
+    background-color: #F2F2F2;
+    padding: 10px;
+    line-height: 16px;
+    margin:auto;
+    margin:10px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear:both;
+    width: auto;
+     padding: 20px;
+}
+
+/*=====Design=====*/
+
+body {
+    background-color: #FFCA26;   
+    font-family: "Georgia" , " Times New Roman";
+    font-size: 15px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 3em;
+}
+h2 {
+    color:black;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+tr {
+    border:5px;
+}
+.table1 {
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+}
+.table2 {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:collapse;
+}
+.td2 {
+    border: solid;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.td3 {
+    border: solid;
+    padding: 10px;
+    
+}
+
+
+/*==========Links==========*/
+
+a:link {color: white}
+a:visited {color: white}
+a:hover {background-color: rgb(161,161,161);}
+
+a.links:link{color:#FFCA26}
+a.links:visited{color:#FFCA26}
+
+a.menu:link{color:white}
+a.menu:visited{white}
+a.menu:hover{color: #FFCA26; background-color: unset; text-decoration: none;}
